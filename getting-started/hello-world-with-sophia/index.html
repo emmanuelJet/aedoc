@@ -4334,7 +4334,7 @@
 <h2 id="overview">Overview</h2>
 <p>In this tutorial, you will learn how to write a simple Sophia ML smart contract in 3 steps using the AEstudio online editor. Once this is done we will deploy the smart contract on the testnet network using the online editor(AEstudio).</p>
 <h2 id="prerequisites">Prerequisites</h2>
-<p>All you will need for this tutorial is an <strong>Internet Connection</strong> connection to visit the AEstudio at <a href="https://studio.aepps.com">https://studio.aepps.com</a></p>
+<p>All you will need for this tutorial is an <strong>Internet Connection</strong> to visit the AEstudio at <a href="https://studio.aepps.com">https://studio.aepps.com</a></p>
 <h2 id="lets-get-started">Let's get started</h2>
 <h3 id="step-one1-declaring-the-contract-and-its-state">Step One(1) - Declaring the contract and it's state</h3>
 <p>The first step to writing a Sophia SmartContract is to give the contract a name which in our case will be <strong>HelloWorld</strong>.</p>
@@ -4346,7 +4346,7 @@
 </code></pre>
 
 <h3 id="step-two2-initializing-the-contract">Step Two(2) - Initializing the contract</h3>
-<p>The second step is to initialize our smart contract which simply means setting our smart contract starting point/state. This step is where we will give value to your smart contract state object. In our case, we will make our word variable equal to an empty string. See example:</p>
+<p>The second step is to initialize our smart contract which simply means setting our smart contract starting point/state. This step is where we will give value to our smart contract state object. In our case, we will make our word variable equal to an empty string. See example:</p>
 <pre><code class="aes">  entrypoint init() = { word = &quot;&quot; }
 </code></pre>
 
@@ -4359,7 +4359,7 @@
 </code></pre>
 
 <h2 id="deploying-and-testing-our-contract">Deploying and Testing our contract</h2>
-<p>Now that our smart contract code is ready, let us copy the full code and head to <a href="https://studio.aepps.com">AEstudio</a> to paste the code so we can test our contract by deploying the contract to the testnet network in other to get a value of <strong>Hello, æternal</strong> or <strong>Hello, world</strong> depending on the name given as a parameter to our <code>say_hello</code> function.</p>
+<p>Now that our smart contract code is ready, let's copy the full code and head to <a href="https://studio.aepps.com">AEstudio</a> to paste the code so we can test our contract by deploying the contract to the testnet network in other to get a value of <strong>Hello, æternal</strong> or <strong>Hello, world</strong> depending on the name given as a parameter to our <code>say_hello</code> function.</p>
 <pre><code class="aes">contract HelloWorld =
 
   record state = { word : string }
