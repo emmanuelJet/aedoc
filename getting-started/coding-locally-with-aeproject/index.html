@@ -4383,6 +4383,20 @@ Commands:
 <pre><code>aeproject init
 </code></pre>
 
+<p>You will see output similar to this:</p>
+<pre><code class="bash">===== Initializing AEproject =====
+===== Installing aepp-sdk =====
+===== Installing AEproject locally =====
+===== Creating project file &amp; dir structure =====
+===== Creating contracts directory =====
+===== Creating tests directory =====
+===== Creating integrations directory =====
+===== Creating deploy directory =====
+===== Creating docker directory =====
+==== Adding additional files ====
+===== AEproject was successfully initialized! =====
+</code></pre>
+
 <p>The init command creates an æpp structure with several folders and scripts:</p>
 <pre><code>.
 ├── contracts
@@ -4434,7 +4448,7 @@ Commands:
     String.concat(state.name, public_address)
 </code></pre>
 
-<p>Our contract now stores a name as a string and a user as an address. The <code>say_hello</code> functions stores the name inserted as a paramenter then resurns a greeting with the name while the public address of the address initilizing the contract is been stored in the <code>user</code> state property. The <code>get_info()</code> function then return the whole <code>state</code> data after conversting the address to a string.</p>
+<p>Our contract now stores a name as a string and a user as an address. The <code>say_hello</code> functions stores the name inserted as a paramenter then resurns a greeting with the name while the public address of the address initilizing the contract is been stored in the <code>user</code> state property. The <code>get_info</code> function then return the whole <code>state</code> data after conversting the address to a string.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>Writing smart contracts to the æternity network is nice and easy. In just a few minutes and few commands, one can initilize a folder using the aeproject tool. Check out the next tutorial to learn how to deploy your smart contract. If you encounter any problems installing AEproject, check out installing AEproject video on <a href="https://youtu.be/7MwTuo70g5w">Ubuntu</a>, <a href="https://youtu.be/ELE24MDuGC8">Windows</a> or contact us through the <a href="https://forum.aeternity.com/c/development">æternity dev Forum category</a>.</p>
                 
