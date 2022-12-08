@@ -9,7 +9,7 @@ attrs==19.1.0
 base58==0.2.5
 bravado==10.4.1
 bravado-core==5.13.1
-certifi==2017.7.27.1
+certifi==2022.12.7
 cffi==1.11.5
 chardet==3.0.4
 ecdsa==0.13
